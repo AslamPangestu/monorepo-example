@@ -1,4 +1,9 @@
-import * as React from "react";
-export const Button = () => {
-  return <button>Boop</button>;
+import { FC } from "react";
+
+interface Props {
+  // any props that come into the component
+}
+
+export const Button: FC<Props> = ({ children }) => {
+  return <button>{children}</button>;
 };
