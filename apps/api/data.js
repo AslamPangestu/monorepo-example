@@ -1,4 +1,4 @@
-export const blogData = [
+module.exports.blogData = [
   {
     userId: 1,
     id: 1,
@@ -62,7 +62,7 @@ export const blogData = [
   },
 ];
 
-export const profileData = {
+module.exports.profileData = {
   id: 1,
   first_name: "Marion",
   last_name: "Hinstock",

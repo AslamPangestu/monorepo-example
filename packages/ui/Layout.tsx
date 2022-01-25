@@ -7,9 +7,9 @@ interface Props {
 export const Layout: FC<Props> = ({ children }) => {
   return (
     <>
-      <header >Ini Header</header>
+      <header>Ini Header</header>
       {children}
-      <footer >Ini Footer</footer>
+      <footer>Ini Footer</footer>
     </>
   );
 };
