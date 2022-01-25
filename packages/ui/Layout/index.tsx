@@ -1,5 +1,7 @@
 import { FC } from "react";
 
+import styles from "./Layout.module.css";
+
 interface Props {
   // any props that come into the component
 }
@@ -7,9 +9,9 @@ interface Props {
 export const Layout: FC<Props> = ({ children }) => {
   return (
     <>
-      <header>Ini Header</header>
+      <header className={styles.headerContainer}>Ini Header</header>
       {children}
-      <footer>Ini Footer</footer>
+      <footer className={styles.footerContainer}>Ini Footer</footer>
     </>
   );
 };
